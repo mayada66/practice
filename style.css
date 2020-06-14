@@ -1,0 +1,80 @@
+ :root {
+    --main-white: #f0f0f0;
+    --main-blue: #F0FFF0;
+    --main-gray: #303841;
+}
+body {
+font-family: 'Poppins', sans-serif;
+   
+    font-weight: 400;
+    line-height: 1.4;
+    color: #000000; 
+  background-color: var(--main-gray);
+}
+* {
+    box-sizing: inherit;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+}
+.container > div:nth-child(1n) {
+  background-color: var(--main-blue);	
+}
+.container > div:nth-child(2n) {
+  background-color:  #ffffff;	
+}
+.container > div:nth-child(3n) {
+  background-color:  var(--main-white);	
+}
+.one {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: auto;
+  width: 200px;
+  margin-top: 2rem;
+  
+}
+h1 {
+  text-align: center;
+}
+UL {
+  list-style: none;
+  text-align: center;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+li {
+    padding: 1rem;
+}
+a:hover {
+  color: 	#A52A2A;
+} 
+img {
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  font-size: 3rem;
+  text-item: end;
+  margin: 2rem;
+  justify-content: flex;
+}
+.butt {
+  background-color: #ffffff;
+  margin: 2rem;
+  padding: 1rem;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+}
+#sec {
+  height: 50%;
+}
